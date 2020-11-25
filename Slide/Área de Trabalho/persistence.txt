@@ -1,0 +1,3 @@
+https://www.oracle.com/webfolder/technetwork/jsc/xml/ns/persistence/persistence_2_1.xsd
+
+<c:out value="${c.ativo ? 'Ativo' : 'Inativo'}"/>	
