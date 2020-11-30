@@ -14,8 +14,7 @@ A definição oficial do Template Method é: "Definir o esqueleto de um algoritm
 O Template Method permite a reutilização de código sem perder o controle dos algortimos.
 
 ## Problema
-A utilização do Template Method é indicada quando um sistema apresenta várias entidades com semelhanças significativas, mas não fazem a reutilização de uma interface ou uma classe bese em comum.
-
+A utilização do Template Method é indicada quando um sistema apresenta várias classes com semelhanças significativas, mas não fazem a reutilização de uma interface ou uma classe bese em comum. Se uma alteração em comum precisar ser feita em ambas as classes, um esforço duplicado será gasto. 
 
 ## Solução
 Dividir um algoritmo em uma série de etapas, as etapas que são comuns a todas as subclasses seram tranformadas em métodos e a chamada desses métodos ficaram dentro de um método padrão. O método padrão tem que ser definido como final, para evitar as subclasses de sobrescrevê-lo. 
