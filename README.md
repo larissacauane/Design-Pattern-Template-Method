@@ -17,8 +17,9 @@ O Template Method permite a reutilização de código sem perder o controle dos 
 A utilização do Template Method é indicada quando um sistema apresenta várias classes com semelhanças significativas, mas não fazem a reutilização de uma interface ou uma classe bese em comum. Se uma alteração em comum precisar ser feita em ambas as classes, um esforço duplicado será gasto. 
 
 ## Solução
-Dividir um algoritmo em uma série de etapas, as etapas que são comuns a todas as subclasses seram tranformadas em métodos e a chamada desses métodos ficaram dentro de um método padrão. O método padrão tem que ser definido como final, para evitar as subclasses de sobrescrevê-lo. 
-Por fim criação de uma classe abstrata, para declarar o método padrão e os métodos abstratos que iram representar as etapas em comum das subclasses.
+Dividir um algoritmo em uma série de etapas, as etapas que são comuns a todas as subclasses seram tranformadas em métodos e a chamada desses métodos ficaram dentro de um método padrão (template method). O método padrão tem que ser definido como final, para evitar as subclasses de sobrescrevê-lo. 
+
+Por fim a criação de uma classe abstrata, para declarar o método padrão e os métodos abstratos que iram representar as etapas em comum das subclasses.
 
 ![img](https://i.imgur.com/GYJiBR7.png)
 
