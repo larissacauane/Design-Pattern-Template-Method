@@ -20,8 +20,6 @@ Classes diferentes que apresentam algoritmos com semelhanças significativas, ma
 Dividir um algoritmo em uma série de etapas, as etapas que são comuns a todas as subclasses seram tranformadas em métodos e a chamada desses métodos ficaram dentro de um método padrão. O método padrão tem que ser definido como final, para evitar as subclasses de sobrescrevê-lo. 
 Por fim criação de uma classe abstrata, para declarar o método padrão e os métodos abstratos que iram representar as etapas em comum das subclasses.
 
-[Solução com código](https://github.com/larissacauane/Design-Patterns/tree/master/Design%20Patterns)
-
 ## Consequências
 
 ### Prós
