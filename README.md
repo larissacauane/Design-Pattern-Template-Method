@@ -7,7 +7,7 @@
 ### Aluno(a): Larissa Cauane de Souza Farias
 
 ## Nome
-**Template Method** define os passos de um algoritmo e permite que a implementação de um ou mais passos seja fornecida por subclasses. Assim, esse padrão proteje o algoritmo e fornece métodos abstratos para as subclasses implemetarem.
+**Template Method** define os passos de um algoritmo e permite que a implementação de um ou mais passos seja fornecida por subclasses. Assim, esse padrão protege o algoritmo e fornece métodos abstratos para as subclasses implemetarem.
 
 A definição oficial do Template Method é: "Definir o esqueleto de um algoritmo em uma operação, postergando alguns passos para as subclasses. Template Method permite que subclasses redefinam certos passos de um algoritmo sem mudar a estrutura do mesmo."
 
