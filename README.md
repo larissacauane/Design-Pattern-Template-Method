@@ -17,7 +17,7 @@ O Template Method permite a reutilização de código sem perder o controle dos 
 Classes diferentes que apresentam algoritmos com semelhanças significativas, mas não fazem a reutilização de uma interface ou de uma classe base em comum.
 
 ## Solução
-Dividir um algoritmo em uma série de etapas, as etapas que são comuns a todas as subclasses seram tranformadas em métodos e a chamada desses métodos ficaram dentro de um método padrão. O método padrão tem que ser definido como final para evitar as subclasses de sobrescrevê-lo. 
+Dividir um algoritmo em uma série de etapas, as etapas que são comuns a todas as subclasses seram tranformadas em métodos e a chamada desses métodos ficaram dentro de um método padrão. O método padrão tem que ser definido como final, para evitar as subclasses de sobrescrevê-lo. 
 Por fim criação de uma classe abstrata, para declarar o método padrão e os métodos abstratos que iram representar as etapas em comum das subclasses.
 
 [Solução com código](https://github.com/larissacauane/Design-Patterns/tree/master/Design%20Patterns)
