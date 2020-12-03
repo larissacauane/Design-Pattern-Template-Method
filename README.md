@@ -27,7 +27,7 @@ Por fim a criação de uma classe abstrata, para declarar o método padrão e os
 
 ### Prós
 - É um padrão fundamental para a reutilização de código.
-- Conduz a uma estrutura de inversão de controle, comumente conhecida como "o princípio de Hollywood", ou seja, "não me chame, nós chamaremos você". Se refere a como uma classe mãe chama as operações de uma subclasse, e não contrário. 
+- Conduz a uma estrutura de inversão de controle, comumente conhecida como "o princípio de Hollywood", ou seja, "não me chame, nós chamaremos você". Se refere a como uma classe mãe chama as operações de uma subclasse, e não o contrário. 
 
 ### Contras
 - Possibilidade da violação do "Princípio de Substituição de Liskov".
