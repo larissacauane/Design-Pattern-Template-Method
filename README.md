@@ -4,7 +4,7 @@
 
 ### Professora: Drª Alana Morais (alanamm.prof@gmail.com)
 
-### Aluno(a): Larissa Cauane de Souza Farias
+### Aluno(a): Larissa Cauane de Souza Farias (larissacauanesouza@gmail.com)
 
 ## Nome
 **Template Method** define os passos de um algoritmo e permite que a implementação de um ou mais passos seja fornecida por subclasses. Assim, esse padrão protege o algoritmo e fornece métodos abstratos para as subclasses implemetarem.
